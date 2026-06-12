@@ -1,0 +1,61 @@
+# ============================================================
+# Smart Product Intelligence — Electronics
+# Khazar University | Hands-on Deep Learning Capstone
+# Python 3.10+ compatible | GPU: CUDA 11.8+ or Google Colab
+# ============================================================
+
+# ── Core Deep Learning ────────────────────────────────────────
+tensorflow>=2.16.1
+keras>=3.0.0
+
+# ── Hugging Face Ecosystem ───────────────────────────────────
+datasets>=2.18.0
+transformers>=4.40.0
+tokenizers>=0.19.1
+huggingface-hub>=0.22.2
+accelerate>=0.29.3
+peft>=0.10.0                  # Parameter-efficient fine-tuning (LoRA)
+
+# ── Generative / Diffusion Models ───────────────────────────
+diffusers>=0.27.2
+safetensors>=0.4.3
+
+# ── Sentence Embeddings (M3 semantic search) ─────────────────
+sentence-transformers>=2.7.0
+
+# ── Data & ML Utilities ──────────────────────────────────────
+numpy>=1.26.4,<2.0.0
+pandas>=2.2.2
+scikit-learn>=1.4.2
+scipy>=1.13.0
+
+# ── Image Processing ─────────────────────────────────────────
+Pillow>=10.3.0
+opencv-python-headless>=4.9.0.80
+requests>=2.31.0              # Downloading product images (M0 only)
+
+# ── NLP / Text Processing ────────────────────────────────────
+nltk>=3.8.1
+regex>=2024.4.16
+
+# ── Visualization ────────────────────────────────────────────
+matplotlib>=3.8.4
+seaborn>=0.13.2
+plotly>=5.21.0
+
+# ── Dimensionality Reduction (embedding visualization, M3) ──
+umap-learn>=0.5.6
+
+# ── Demo Application ─────────────────────────────────────────
+gradio>=4.28.3
+
+# ── Notebook Utilities ───────────────────────────────────────
+ipywidgets>=8.1.2
+tqdm>=4.66.2
+python-dotenv>=1.0.1          # Loading .env API keys
+
+# ── Vector Search (RAG in M5) ────────────────────────────────
+faiss-cpu>=1.8.0              # Use faiss-gpu on CUDA machines
+
+# ── File I/O ─────────────────────────────────────────────────
+pyarrow>=16.0.0               # Parquet read/write for cached data

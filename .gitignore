@@ -1,0 +1,35 @@
+# Data cache and images
+data/
+
+# Environment variables and API keys
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Trained weights & model checkpoints
+*.h5
+*.keras
+*.pt
+*distilbert_finetuned/
+*flan_t5_lora/
+
+# IDE files
+.vscode/
+.idea/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Large archives and binaries
+*.rar
+*.zip
+*.tar.gz
